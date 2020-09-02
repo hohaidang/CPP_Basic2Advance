@@ -1,0 +1,3 @@
+﻿  Source.cpp
+e:\learning_coding\c_c++\leetcode\strstr()\strstr()\source.cpp(10): warning C4018: '<': signed/unsigned mismatch
+  strStr().vcxproj -> E:\Learning_Coding\C_C++\LeetCode\strStr()\Debug\strStr().exe

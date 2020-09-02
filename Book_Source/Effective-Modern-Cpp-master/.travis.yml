@@ -1,0 +1,44 @@
+# Ubuntu 14.04 Trusty support
+#sudo: required
+#dist: trusty
+
+language: cpp
+
+# matrix setup based on http://genbattle.bitbucket.org/blog/2016/01/17/c++-travis-ci/
+matrix:
+  include:
+    - compiler: gcc
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - g++-5
+      env: COMPILER=g++-5
+    - compiler: clang
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+            - llvm-toolchain-precise-3.7
+          packages:
+            - clang-3.7
+      env: COMPILER=clang++-3.7
+
+before_install:
+  - sudo apt-get update -qq
+  - wget --no-verbose --output-document=boost_1_56_0.tar.bz2 http://sourceforge.net/projects/boost/files/boost/1.56.0/boost_1_56_0.tar.bz2/download
+  - export BOOST_ROOT="$TRAVIS_BUILD_DIR/../boost"
+  - export DEBIAN_FRONTEND=noninteractive
+  - mkdir -p $BOOST_ROOT
+  - tar jxf boost_1_56_0.tar.bz2 --strip-components=1 -C $BOOST_ROOT
+
+install:
+  - (cd $BOOST_ROOT; ./bootstrap.sh --with-libraries=atomic,chrono,context,coroutine,iostreams,system,test,thread)
+  - (cd $BOOST_ROOT; ./b2 threading=multi --prefix=$HOME -d0 install)
+
+script:
+  - mkdir build
+  - cd build
+  - cmake --version
+  - cmake -DCMAKE_CXX_COMPILER=$COMPILER -DBOOST_ROOT=$HOME .. && make VERBOSE=1

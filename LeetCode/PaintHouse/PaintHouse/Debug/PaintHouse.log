@@ -1,0 +1,4 @@
+﻿  Source.cpp
+e:\learning_coding\c_c++\leetcode\painthouse\painthouse\source.cpp(12): warning C4018: '<': signed/unsigned mismatch
+e:\learning_coding\c_c++\leetcode\painthouse\painthouse\source.cpp(15): warning C4018: '<': signed/unsigned mismatch
+  PaintHouse.vcxproj -> E:\Learning_Coding\C_C++\LeetCode\PaintHouse\Debug\PaintHouse.exe

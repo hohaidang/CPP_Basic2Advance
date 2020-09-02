@@ -1,0 +1,2 @@
+#define MATHLIBRARY_API __declspec(dllexport)
+#define MATHLIBRARY_API __declspec(dllimport)

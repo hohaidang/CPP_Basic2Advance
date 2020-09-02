@@ -1,0 +1,3 @@
+﻿  Source.cpp
+e:\learning_coding\c_c++\leetcode\reverseinteger\romantointeger\romantointeger\source.cpp(21): warning C4018: '<': signed/unsigned mismatch
+e:\learning_coding\c_c++\leetcode\reverseinteger\romantointeger\romantointeger\source.cpp(26): error C4716: 'Solution::romanToInt': must return a value

@@ -1,0 +1,13 @@
+#.DEFAULT_GOAL := generate # dung de thay doi default target
+
+.PHONY: all say_hello generate clean
+
+all: say_hello generate # target "all" se goi 2 target la say_hello va generate
+say_hello:
+	@echo "Hello World" 
+
+generate:
+	@echo "Creating empty text files..."
+
+clean:
+	@echo "Cleaning up..."
