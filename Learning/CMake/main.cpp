@@ -1,7 +1,9 @@
 #include <iostream>
+#include "cpplib.h"
 using namespace std;
 
 int main() {
-	cout << "Hello World";
-	return 0;
+
+    cpp_lib my_class;
+    cout << my_class.print_hello_world() << endl;
 }

@@ -4,4 +4,6 @@ cmake . -G "NMake Makefiles"
 
 Using gcc compiler
 
-cmake . -G "-G "Unix Makefiles"
+cmake . -G "Unix Makefiles"
+
+make
