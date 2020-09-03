@@ -1,8 +1,8 @@
-# Project nay la cach build glog lam library. sau do tao mot source file la main.cpp link den thu vien hien tai
+# Project is used to glog as a static library. Then create a new source file main.cpp and link to static glog library
 
-# Project nay dat test len Linux va Window
+Tested on Ubuntu 18.04 and Windows 10
 
-Tham khao https://github.com/google/glog/blob/master/cmake/INSTALL.md
+Reference https://github.com/google/glog/blob/master/cmake/INSTALL.md
 
 $ git clone https://github.com/google/glog
 
@@ -14,14 +14,14 @@ $ make
 
 $ make install // cai nay (optionnal), khi chay make install thi no se copy static library va header vao thu muc usr/local/include
 
-$ cd .. // ra ngoai thu muc CMake_glog
+$ cd .. // go back to CMake_glog folder
 
-$ cmake . // luc nay se link file main.cpp voi lai library glog moi build o buoc tren
+$ cmake . // link main.cpp file to glog static library
 
 Linux:
 
-$ make // sau buoc nay se tao ra file main. luc nay co the dung de chay
+$ make // create application for main
 
 Windows:
 
-Mo file .sln, dung visual studio build.
+Open file .sln using visual studio. -> BUILD ALL
