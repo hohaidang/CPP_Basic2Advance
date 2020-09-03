@@ -1,4 +1,6 @@
-# Cach tao .dll bang mingw tren window
+# Project nay dung de tao dll lib va dung cmake de link lai voi nhau
+
+## Cach tao .dll bang mingw tren window
 
 tao ra .dll
 
