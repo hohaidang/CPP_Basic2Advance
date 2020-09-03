@@ -1,9 +1,7 @@
-#include <iostream>
-#include "cpplib.h"
-using namespace std;
+#include "shared.h"
 
 int main() {
-
-    cpp_lib my_class;
-    cout << my_class.print_hello_world() << endl;
+  f();
+  X x;
+  x.mX();
 }
