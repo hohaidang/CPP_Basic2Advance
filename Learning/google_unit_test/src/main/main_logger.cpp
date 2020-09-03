@@ -1,7 +1,7 @@
 /* Ham main nay mo ta cach su dung glog */
 /* Van chua dung duoc glog o tren Windows. Chua test cho iOS */
 #include "glog/logging.h"
-#include "glog/stl_longging.h"
+#include "glog/stl_logging.h"
 
 #include <iostream>
 #include <map>
