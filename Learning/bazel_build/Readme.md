@@ -1,0 +1,1 @@
+bazel run //main:hello-world  

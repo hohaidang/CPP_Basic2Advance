@@ -1,0 +1,1 @@
+extern int data_glob;
