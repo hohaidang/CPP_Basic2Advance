@@ -57,17 +57,17 @@ private:
 		}
 	} 
 	
-	TreeNode* deserialize(istringstream &in) {
-		string val;
-		in >> val;
-		if(val == "#") {
-			return nullptr;
-		}
-		TreeNode *curNode = new TreeNode(stoi(val, nullptr, 10));
-		curNode->left = deserialize(in);
-		curNode->right = deserialize(in);
-		return curNode;
-	}
+	// TreeNode* deserialize(istringstream &in) {
+		// string val;
+		// in >> val;
+		// if(val == "#") {
+			// return nullptr;
+		// }
+		// TreeNode *curNode = new TreeNode(stoi(val, nullptr, 10));
+		// curNode->left = deserialize(in);
+		// curNode->right = deserialize(in);
+		// return curNode;
+	// }
 };
 
 void showTree(TreeNode *tree) {
