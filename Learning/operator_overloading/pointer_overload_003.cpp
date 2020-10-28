@@ -11,6 +11,7 @@ public:
     //if (o) ZmObject_REF(o);
   }
 
+	// day la operator cho pointer, khac voi operator cho phep nhan
   inline operator T *() const { return m_object; }
   T* m_object;
 };
@@ -22,7 +23,7 @@ class MxAHD_Connection {
 public:
     void rcvd() {
         ZmRef<MxAHDLine> line = m_line;
-        if(!line) {
+        if(!line) { // se goi operator T * ()
             std::cout << "line is null";
         }
         else {
