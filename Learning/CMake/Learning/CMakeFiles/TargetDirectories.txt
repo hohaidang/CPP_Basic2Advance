@@ -1,3 +1,0 @@
-/home/haidang/Code/CPP_Basic2Advance/Learning/CMake/Learning/CMakeFiles/rebuild_cache.dir
-/home/haidang/Code/CPP_Basic2Advance/Learning/CMake/Learning/CMakeFiles/Tutorial.dir
-/home/haidang/Code/CPP_Basic2Advance/Learning/CMake/Learning/CMakeFiles/edit_cache.dir
