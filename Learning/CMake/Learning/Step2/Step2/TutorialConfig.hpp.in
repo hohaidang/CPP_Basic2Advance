@@ -1,0 +1,5 @@
+// This file for optional configuration compiler switch
+// This file will be read by cmake and create TutorialConfig.h
+#define Tutorial_VERSION_MAJOR @Tutorial_VERSION_MAJOR@ // read major version of Tutorial project
+#define Tutorial_VERSION_MINOR @Tutorial_VERSION_MINOR@ // read minor version of Tutorial project
+#define USE_MATHLIB
