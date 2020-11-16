@@ -1,0 +1,4 @@
+# Build
+$ cmake .
+$ cmake --build .
+
