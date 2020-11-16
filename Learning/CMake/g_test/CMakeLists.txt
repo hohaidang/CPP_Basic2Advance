@@ -1,4 +1,5 @@
-# Download and unpack googletest at configure time
+# ------------------------Download----------------------------------
+# Unpack googletest at configure time
 configure_file(CMakeLists.txt.in googletest-download/CMakeLists.txt)
 execute_process(COMMAND ${CMAKE_COMMAND} -G "${CMAKE_GENERATOR}" .
   RESULT_VARIABLE result
@@ -29,12 +30,31 @@ add_subdirectory(${CMAKE_CURRENT_BINARY_DIR}/googletest-src
 if (CMAKE_VERSION VERSION_LESS 2.8.11)
   include_directories("${gtest_SOURCE_DIR}/include")
 endif()
+#------------------------------------------------------------
 
-cmake_minimum_required(VERSION 2.8.2)
-project(my_gtest)
+cmake_minimum_required(VERSION 3.0)
 
-#include(cpplib)
-# Now simply link against gtest or gtest_main as needed. Eg
-add_executable(cpp_lib_test cpp_lib_test.cpp cpplib.cpp)
-target_link_libraries(cpp_lib_test gtest_main)
-add_test(AllTest cpp_lib_test)
+set(This cmake_gtest)
+
+project(${This} C CXX)
+
+set(CMAKE_C_STANDARD 99)
+set(CMAKE_CXX_STANDARD 11) # cpp version
+set(CMAKE_POSITION_INDEPENDENT_CODE) # library mix together
+
+enable_testing() # enable test
+
+#add_subdirectory(googletest)
+
+set(Headers 
+    example.h
+)
+
+set(Sources 
+    example.cpp
+)
+
+# gtest se la ham main, cho nen source va headers se la library
+add_library(${This} STATIC ${Sources} ${Headers})
+
+add_subdirectory(test) # keep test seperate from the code

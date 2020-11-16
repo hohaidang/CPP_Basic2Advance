@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcmake_gtest.a CMakeFiles/cmake_gtest.dir/example.cpp.o
+/usr/bin/ranlib libcmake_gtest.a

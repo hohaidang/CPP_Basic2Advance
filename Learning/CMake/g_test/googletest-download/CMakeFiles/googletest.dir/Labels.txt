@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+/home/haidang/Code/CPP_Basic2Advance/Learning/CMake/g_test/googletest-download/CMakeFiles/googletest
+/home/haidang/Code/CPP_Basic2Advance/Learning/CMake/g_test/googletest-download/CMakeFiles/googletest.rule
+/home/haidang/Code/CPP_Basic2Advance/Learning/CMake/g_test/googletest-download/CMakeFiles/googletest-complete.rule
+/home/haidang/Code/CPP_Basic2Advance/Learning/CMake/g_test/googletest-download/googletest-prefix/src/googletest-stamp/googletest-install.rule
+/home/haidang/Code/CPP_Basic2Advance/Learning/CMake/g_test/googletest-download/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+/home/haidang/Code/CPP_Basic2Advance/Learning/CMake/g_test/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download.rule
+/home/haidang/Code/CPP_Basic2Advance/Learning/CMake/g_test/googletest-download/googletest-prefix/src/googletest-stamp/googletest-update.rule
+/home/haidang/Code/CPP_Basic2Advance/Learning/CMake/g_test/googletest-download/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+/home/haidang/Code/CPP_Basic2Advance/Learning/CMake/g_test/googletest-download/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+/home/haidang/Code/CPP_Basic2Advance/Learning/CMake/g_test/googletest-download/googletest-prefix/src/googletest-stamp/googletest-build.rule
+/home/haidang/Code/CPP_Basic2Advance/Learning/CMake/g_test/googletest-download/googletest-prefix/src/googletest-stamp/googletest-test.rule
