@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
+#include <string>
 
-int main_val = 5;
-int data_k;
-void initVector();
+// void StringComparision(size_t size);

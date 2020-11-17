@@ -1,9 +1,15 @@
 #include "main.hpp"
 
-int data_k = 16;
+void StringComparision(size_t size) {
+  std::string s1(size, '-');
+  std::string s2(size, '-');
+  s1.compare(s2);
+}
 
-void initVector() {
-  for (int i = 0; i < 1000; ++i) {
-    std::cout << "Dangdeptrai";  
+unsigned long Increment(unsigned long n) {
+  unsigned long sum = 0;
+  for(unsigned long i = 0; i < n; ++i) {
+    sum++;
   }
+  return sum;
 }
