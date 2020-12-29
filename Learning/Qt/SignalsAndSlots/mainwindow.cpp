@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
     // third value is receiver is progessBar
     // fourth value is SLOT is value set for progressBar
     connect(ui->horizontalSlider, SIGNAL(valueChanged(int)), ui->progressBar, SLOT(setValue(int)));
-    //disconnect(ui->horizontalSlider, SIGNAL(valueChanged(int)), ui->progressBar, SLOT(setValue(int)));
+    //Wdisconnect(ui->horizontalSlider, SIGNAL(valueChanged(int)), ui->progressBar, SLOT(setValue(int)));
 }
 
 MainWindow::~MainWindow()
