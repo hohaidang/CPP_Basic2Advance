@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Step2/MathFunctions/MathFunctions.cpp
+MathFunctions.h
+/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Step2/MathFunctions/MathFunctions.h
+iostream
+-
+
+/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Step2/MathFunctions/MathFunctions.h
+

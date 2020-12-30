@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/dynamic_lib/build-vscode",
+  "command": "/usr/bin/clang++ -Dshared_EXPORTS  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -fPIC -o CMakeFiles/shared.dir/shared.cpp.o -c /Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/dynamic_lib/shared.cpp",
+  "file": "/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/dynamic_lib/shared.cpp"
+},
+{
+  "directory": "/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/dynamic_lib/build-vscode",
+  "command": "/usr/bin/clang++   -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/main.dir/main.cpp.o -c /Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/dynamic_lib/main.cpp",
+  "file": "/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/dynamic_lib/main.cpp"
+}
+]

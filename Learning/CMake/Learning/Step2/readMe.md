@@ -1,16 +1,5 @@
-# Learning how to use CMake
-$ cd Step1_build
+Using visual code to build with Cmake Build command (Cmd + P -> Cmake Build)
+Using visual code to debug with Cmake Debug command (Cmd + P -> Cmake Debug)
 
-Create Make file
-$ cmake ../
-
-Buil current folder
-$ cmake --build .
-
-$ ./Tutorial
-
-Reference:
-https://github.com/Kitware/CMake/tree/master/Help/guide/tutorial
-https://cmake.org/cmake/help/latest/guide/tutorial/index.html
-
-Stopped at step 3.
+This project desbribe how to link main source code with library MathFunctions
+This project can use with visual code (check gdb install before run)

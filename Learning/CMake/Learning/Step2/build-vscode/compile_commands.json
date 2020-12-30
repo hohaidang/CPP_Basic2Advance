@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Step2/build-vscode",
+  "command": "/usr/bin/clang++  -I/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Step2/build-vscode -I/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Step2/MathFunctions -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -std=gnu++17 -o CMakeFiles/Tutorial.dir/tutorial.cpp.o -c /Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Step2/tutorial.cpp",
+  "file": "/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Step2/tutorial.cpp"
+},
+{
+  "directory": "/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Step2/build-vscode/MathFunctions",
+  "command": "/usr/bin/clang++   -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -std=gnu++17 -o CMakeFiles/MathFunctions.dir/MathFunctions.cpp.o -c /Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Step2/MathFunctions/MathFunctions.cpp",
+  "file": "/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Step2/MathFunctions/MathFunctions.cpp"
+}
+]

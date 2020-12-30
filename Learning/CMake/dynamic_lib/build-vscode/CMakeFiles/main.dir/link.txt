@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/main.dir/main.cpp.o -o main  -Wl,-rpath,/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/dynamic_lib/build-vscode libshared.dylib 

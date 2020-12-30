@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -dynamiclib -Wl,-headerpad_max_install_names -o libshared.dylib -install_name @rpath/libshared.dylib CMakeFiles/shared.dir/shared.cpp.o 
