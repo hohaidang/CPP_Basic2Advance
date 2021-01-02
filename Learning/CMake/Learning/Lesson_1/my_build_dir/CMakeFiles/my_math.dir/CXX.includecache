@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Lesson_1/addition.cpp
+
+/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Lesson_1/division.cpp
+

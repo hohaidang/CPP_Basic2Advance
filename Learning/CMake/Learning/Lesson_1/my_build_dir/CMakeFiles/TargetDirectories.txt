@@ -1,0 +1,5 @@
+/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Lesson_1/my_build_dir/CMakeFiles/rebuild_cache.dir
+/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Lesson_1/my_build_dir/CMakeFiles/edit_cache.dir
+/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Lesson_1/my_build_dir/CMakeFiles/caculator.dir
+/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Lesson_1/my_build_dir/CMakeFiles/my_print.dir
+/Users/hohaidang/Desktop/Code/CPP_Basic2Advance/Learning/CMake/Learning/Lesson_1/my_build_dir/CMakeFiles/my_math.dir
