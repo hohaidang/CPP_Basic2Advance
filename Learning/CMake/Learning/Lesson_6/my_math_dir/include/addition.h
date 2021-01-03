@@ -1,0 +1,2 @@
+float addition(float, float);
+
