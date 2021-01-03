@@ -1,6 +1,6 @@
 #include <iostream>
-#include "addition.h"
-#include "division.h" 
+#include <addition.h>
+#include <division.h>
 
 int main() {
   float first_no, second_no, result_add, result_div;

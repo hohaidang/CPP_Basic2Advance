@@ -17,8 +17,8 @@ $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>)
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/include/addition.h ${CMAKE_CURRENT_SOURCE_DIR}/include/division.h DESTINATION ${CMAKE_INSTALL_PREFIX}/include/my_math)
 
 # install/copy my_math.a to usr/local/lib/my_math
-install(TARGETS my_math DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/my_math)
+install(TARGETS my_math EXPORT my_export DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/my_math)
 
 # De cmd find_package() co the tim duoc library, thi ta can phai copy file <lib_name>-config.cmake vao cung 1 ffolder voi lib.a
 # muc FILE my_math-config.cmake la de thay doi ten cua file config output thanh my_math-config.cmake
-install(EXPORT my_math FILE my_math-config.cmake DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/my_math)
+install(EXPORT my_export FILE my_math-config.cmake DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/my_math)
