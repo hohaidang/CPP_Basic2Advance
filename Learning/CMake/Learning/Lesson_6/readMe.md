@@ -1,1 +1,4 @@
-Project nay dung de manage file trong sub_directory va lam sao de link nhung file trong nhieu subdirectory lai voi nhau
+Project nay chi cach lam sao de install 1 package vao 1 folder cu the, default se la /usr/local
+$ cmake ..
+$ make
+$ make install
