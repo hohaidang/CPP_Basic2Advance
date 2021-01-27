@@ -73,6 +73,6 @@ int main() {
     // vao move constructor boi vi "Cherno" la lvalue
     // doi voi entity1 co the hieu cach khac la 
     // String &&name("Cherno") -> constructor, sau do
-    // m_name(name) -> copy constructor
+    // m_name((String&&) name) -> move constructor
     return 0;
 }
