@@ -28,7 +28,7 @@ public:
 	Time(Time&& t) {
 		this->hour_ = t.hour_;
 		this->arr_ = move(t.arr_);
-		t.hour_ = NULL;
+		t.hour_ = 0;
 		
 	}
 
@@ -103,7 +103,7 @@ public:
 	void operator=(Time&& t) noexcept {
 		this->hour_ = t.hour_;
 		this->arr_ = move(t.arr_);
-		this->hour_ = NULL;
+		this->hour_ = 0;
 	}
 
 	// operator function call overloading
@@ -120,6 +120,11 @@ public:
 		}
 		return arr_[i];
 	}
+
+    Time& operator|=(const Time &t) {
+        this->hour_ += t.hour_;
+        return *this;
+    }
 
 	void show_time(string name) const {
 		cout << name << " hour_ = " << this->hour_ << endl;
@@ -160,7 +165,9 @@ int main() {
 	Time assignment = a;
 	Time assignment_move = a + b;
 	Time function_call = a(1, 2, 3);
-
+    Time or_equal(3);
+    Time f(5);
+    or_equal |= f;
 
 	plus.show_time("plus");
 	minus.show_time("minus");
@@ -170,6 +177,7 @@ int main() {
 	num_multiple.show_time("num_multiple");
 	assignment.show_time("assignment");
 	function_call.show_time("function_call");
+    or_equal.show_time("or_equal");
 	cout << "subscripting operator = " << a[3] << endl;
 	++a;
 	a.show_time("prefix increse operator");
