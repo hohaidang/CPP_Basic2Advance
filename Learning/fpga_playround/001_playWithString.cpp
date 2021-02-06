@@ -17,7 +17,7 @@ int main() {
 
   auto msg = Raptor::MxEMAPIMsg<Raptor::Message<decltype(a)>>(a);
 
-  // play ground, phan nay phai chuyen Messge -> s thanh public
+  // play ground, phan nay phai chuyen IMPORT_MESSAGE -> s thanh public
 //  auto data = msg.s<0, 1>(); // tach char tu phan tu 0 length = 1
 //  if(data == stringNZ<1>("D")) { // so sanh string
 //    std::cout << "Equal" << std::endl;
