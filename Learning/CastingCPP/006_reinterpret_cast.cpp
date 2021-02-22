@@ -5,11 +5,10 @@
  *      Author: prnsoft
  */
 
-
 //#include <iostream>
-//using namespace std;
+// using namespace std;
 //
-//int main()
+// int main()
 //{
 //	cout << "Hello World" << endl;
 //	int* p = new int(65);
@@ -21,11 +20,10 @@
 //	return 0;
 //}
 
-
 //#include <iostream>
 //
-//using namespace std;
-//struct mystruct
+// using namespace std;
+// struct mystruct
 //{
 //	int x;
 //	int y;
@@ -33,7 +31,7 @@
 //	bool b;
 //};
 //
-//int main()
+// int main()
 //{
 //	mystruct s;
 //	s.x = 5;
@@ -54,49 +52,31 @@
 //	cout << "*(n) = " << *n << endl;
 //}
 
-
-
 #include <iostream>
 using namespace std;
 
-class A
-{
+class A {
 public:
-	int a = 5;
-	void fun_a()
-	{
-		cout << "In class A\n";
-	}
-	bool Yes()
-	{
-		return 1;
-	}
+  int a = 5;
+  void fun_a() { cout << "In class A\n"; }
+  bool Yes() { return 1; }
 };
 
-class B
-{
+class B {
 public:
-	void fun_b()
-	{
-		cout << "In class B\n";
-	}
+  void fun_b() { cout << "In class B\n"; }
 };
 
-bool TestFun(B* K)
-{
-	return reinterpret_cast<A*>(K)->Yes();
-}
+bool TestFun(B *K) { return reinterpret_cast<A *>(K)->Yes(); }
 
-int main()
-{
-	B* x = new B();
-	bool BoolTest = TestFun(x);
-	cout << "BoolTest = " << BoolTest << endl;
-	A* new_a = reinterpret_cast<A*>(x);
-	new_a->fun_a();
-//	new_a->fun_b(); // Error
-	x->fun_b();
+int main() {
+  B *x = new B();
+  bool BoolTest = TestFun(x);
+  cout << "BoolTest = " << BoolTest << endl;
+  A *new_a = reinterpret_cast<A *>(x);
+  new_a->fun_a();
+  //	new_a->fun_b(); // Error
+  x->fun_b();
 
-
-	return 0;
+  return 0;
 }
