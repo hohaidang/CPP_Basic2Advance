@@ -3,10 +3,6 @@
 struct Time {
     Time() : hour_(0) {}
     Time(int hour) : hour_(hour) {}
-    Time& operator|= (const Time &t) {
-        this->hour_ += t.hour_;
-        return *this;
-    }
 
     int hour_;
 };
